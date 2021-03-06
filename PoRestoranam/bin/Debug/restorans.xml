@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<ArrayOfRestoran xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Restoran>
+    <Name>La cruise</Name>
+    <ImagePath>Asset\Restorans\1.jpg</ImagePath>
+    <ResType>Ресторан</ResType>
+    <Rating>5</Rating>
+    <TimeWork>15:00 - 01:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Dictorn</Name>
+        <ImagePath>Asset\Dishes\dish1.jpg</ImagePath>
+        <Cost>900</Cost>
+        <Description>Нежные блюдо с остринками</Description>
+      </Dish>
+      <Dish>
+        <Name>La flur</Name>
+        <ImagePath>Asset\Dishes\dish2.jpg</ImagePath>
+        <Cost>800</Cost>
+        <Description>Инопланетно существо, разделанное на мелкие кусочки</Description>
+      </Dish>
+      <Dish>
+        <Name>Concueer</Name>
+        <ImagePath>Asset\Dishes\dish3.jpg</ImagePath>
+        <Cost>500</Cost>
+        <Description>Неизвестное блюды с Марса</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Collidias</Name>
+    <ImagePath>Asset\Restorans\2.jpg</ImagePath>
+    <ResType>Кафе</ResType>
+    <Rating>4</Rating>
+    <TimeWork>08:00 - 23:10</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Choppo</Name>
+        <ImagePath>Asset\Dishes\dish4.jpg</ImagePath>
+        <Cost>389</Cost>
+        <Description>Звучит вкусно, наверное</Description>
+      </Dish>
+      <Dish>
+        <Name>Hoppo</Name>
+        <ImagePath>Asset\Dishes\dish5.jpeg</ImagePath>
+        <Cost>789</Cost>
+        <Description>Звучит сладко, наверное</Description>
+      </Dish>
+      <Dish>
+        <Name>Loppo</Name>
+        <ImagePath>Asset\Dishes\dish6.jpeg</ImagePath>
+        <Cost>489</Cost>
+        <Description>Звучит остро, наверное</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>BurgenLagan</Name>
+    <ImagePath>Asset\Restorans\3.jpg</ImagePath>
+    <ResType>Кафе</ResType>
+    <Rating>3</Rating>
+    <TimeWork>12:00 - 23:00</TimeWork>
+    <Delivery>false</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Bugr</Name>
+        <ImagePath>Asset\Dishes\dish7.jpeg</ImagePath>
+        <Cost>100</Cost>
+        <Description>Обычный Bugr</Description>
+      </Dish>
+      <Dish>
+        <Name>Bugr XL</Name>
+        <ImagePath>Asset\Dishes\dish8.jpg</ImagePath>
+        <Cost>200</Cost>
+        <Description>Чуть большой Bugr</Description>
+      </Dish>
+      <Dish>
+        <Name>Bugr King size</Name>
+        <ImagePath>Asset\Dishes\dish9.jpg</ImagePath>
+        <Cost>500</Cost>
+        <Description>Bugr для королей</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Lavashland</Name>
+    <ImagePath>Asset\Restorans\4.jpg</ImagePath>
+    <ResType>ФастФууд</ResType>
+    <Rating>5</Rating>
+    <TimeWork>00:00 - 24:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Doner</Name>
+        <ImagePath>Asset\Dishes\dish10.jpg</ImagePath>
+        <Cost>700</Cost>
+        <Description>Донер как лаваш, но донер</Description>
+      </Dish>
+      <Dish>
+        <Name>Lavash</Name>
+        <ImagePath>Asset\Dishes\dish11.jpg</ImagePath>
+        <Cost>740</Cost>
+        <Description>Лаваш как донер, но лаваш</Description>
+      </Dish>
+      <Dish>
+        <Name>DonLav</Name>
+        <ImagePath>Asset\Dishes\dish12.jpg</ImagePath>
+        <Cost>1000</Cost>
+        <Description>Лаваш + донер</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Memas</Name>
+    <ImagePath>Asset\Restorans\5.jpg</ImagePath>
+    <ResType>Кофейня</ResType>
+    <Rating>5</Rating>
+    <TimeWork>15:00 - 20:00</TimeWork>
+    <Delivery>false</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>DeadMeme</Name>
+        <ImagePath>Asset\Dishes\dish13.jpg</ImagePath>
+        <Cost>480</Cost>
+        <Description>Старый</Description>
+      </Dish>
+      <Dish>
+        <Name>NewMeme</Name>
+        <ImagePath>Asset\Dishes\dish14.jpg</ImagePath>
+        <Cost>890</Cost>
+        <Description>Новый</Description>
+      </Dish>
+      <Dish>
+        <Name>SingMeme</Name>
+        <ImagePath>Asset\Dishes\dish15.jpg</ImagePath>
+        <Cost>780</Cost>
+        <Description>Сингулярный</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Metallius</Name>
+    <ImagePath>Asset\Restorans\6.jpg</ImagePath>
+    <ResType>Ресторан</ResType>
+    <Rating>5</Rating>
+    <TimeWork>12:00 - 24:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Hard metal</Name>
+        <ImagePath>Asset\Dishes\dish16.jpg</ImagePath>
+        <Cost>100</Cost>
+        <Description>Вкус тяжести</Description>
+      </Dish>
+      <Dish>
+        <Name>Mid metal</Name>
+        <ImagePath>Asset\Dishes\dish17.jpg</ImagePath>
+        <Cost>200</Cost>
+        <Description>Вкус среднего</Description>
+      </Dish>
+      <Dish>
+        <Name>Light metal</Name>
+        <ImagePath>Asset\Dishes\dish18.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>Для слабаков</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>GachiSquad</Name>
+    <ImagePath>Asset\Restorans\7.jpg</ImagePath>
+    <ResType>Бар</ResType>
+    <Rating>3</Rating>
+    <TimeWork>00:00 - 00:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Billy</Name>
+        <ImagePath>Asset\Dishes\dish19.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>F</Description>
+      </Dish>
+      <Dish>
+        <Name>Herrington</Name>
+        <ImagePath>Asset\Dishes\dish20.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>FF</Description>
+      </Dish>
+      <Dish>
+        <Name>F</Name>
+        <ImagePath>Asset\Dishes\dish21.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>FFF</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Ramennaya</Name>
+    <ImagePath>Asset\Restorans\8.jpg</ImagePath>
+    <ResType>Кафе</ResType>
+    <Rating>4</Rating>
+    <TimeWork>09:00 - 22:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Ramen</Name>
+        <ImagePath>Asset\Dishes\dish22.jpg</ImagePath>
+        <Cost>4500</Cost>
+        <Description>ммм, рамён</Description>
+      </Dish>
+      <Dish>
+        <Name>Kamen</Name>
+        <ImagePath>Asset\Dishes\dish23.jpg</ImagePath>
+        <Cost>1234</Cost>
+        <Description>неизвестно</Description>
+      </Dish>
+      <Dish>
+        <Name>Shamen</Name>
+        <ImagePath>Asset\Dishes\dish24.jpg</ImagePath>
+        <Cost>5622</Cost>
+        <Description>нельзя есть</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Bittusie</Name>
+    <ImagePath>Asset\Restorans\9.jpg</ImagePath>
+    <ResType>Кафе</ResType>
+    <Rating>2</Rating>
+    <TimeWork>23:00 - 24:00</TimeWork>
+    <Delivery>false</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Swish</Name>
+        <ImagePath>Asset\Dishes\dish25.jpg</ImagePath>
+        <Cost>1233</Cost>
+        <Description>Как жвачка</Description>
+      </Dish>
+      <Dish>
+        <Name>Lish</Name>
+        <ImagePath>Asset\Dishes\dish26.jpg</ImagePath>
+        <Cost>4511</Cost>
+        <Description>Как напиток</Description>
+      </Dish>
+      <Dish>
+        <Name>Pish</Name>
+        <ImagePath>Asset\Dishes\dish27.jpg</ImagePath>
+        <Cost>2311</Cost>
+        <Description>Как живот заболит</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Kekw</Name>
+    <ImagePath>Asset\Restorans\10.jpg</ImagePath>
+    <ResType>Ресторан</ResType>
+    <Rating>5</Rating>
+    <TimeWork>15:00 - 22:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Lol</Name>
+        <ImagePath>Asset\Dishes\dish28.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>Будешь смеяться</Description>
+      </Dish>
+      <Dish>
+        <Name>Rofl</Name>
+        <ImagePath>Asset\Dishes\dish29.jpg</ImagePath>
+        <Cost>600</Cost>
+        <Description>Будешь смеяться под столом</Description>
+      </Dish>
+      <Dish>
+        <Name>Kek</Name>
+        <ImagePath>Asset\Dishes\dish30.jpg</ImagePath>
+        <Cost>900</Cost>
+        <Description>Новая эра смеха</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Tajika</Name>
+    <ImagePath>Asset\Restorans\11.jpg</ImagePath>
+    <ResType>Бар</ResType>
+    <Rating>5</Rating>
+    <TimeWork>11:00 - 21:30</TimeWork>
+    <Delivery>false</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Plov</Name>
+        <ImagePath>Asset\Dishes\dish31.jpg</ImagePath>
+        <Cost>450</Cost>
+        <Description>Это не плов</Description>
+      </Dish>
+      <Dish>
+        <Name>Marbuk</Name>
+        <ImagePath>Asset\Dishes\dish32.jpg</ImagePath>
+        <Cost>123</Cost>
+        <Description>Напиток не богов</Description>
+      </Dish>
+      <Dish>
+        <Name>Ludim</Name>
+        <ImagePath>Asset\Dishes\dish33.jpg</ImagePath>
+        <Cost>578</Cost>
+        <Description>Осторожно, ядрёная смесь</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>PoLastu</Name>
+    <ImagePath>Asset\Restorans\12.jpg</ImagePath>
+    <ResType>Кафе</ResType>
+    <Rating>1</Rating>
+    <TimeWork>09:11 - 21:00</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Dotka</Name>
+        <ImagePath>Asset\Dishes\dish34.jpg</ImagePath>
+        <Cost>1000</Cost>
+        <Description>Токсично, как ты любишь</Description>
+      </Dish>
+      <Dish>
+        <Name>Fortnite</Name>
+        <ImagePath>Asset\Dishes\dish35.jpg</ImagePath>
+        <Cost>0</Cost>
+        <Description>Для тебя, тупенький</Description>
+      </Dish>
+      <Dish>
+        <Name>Minecraft</Name>
+        <ImagePath>Asset\Dishes\dish36.jpg</ImagePath>
+        <Cost>300</Cost>
+        <Description>Для детей</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Odinochka</Name>
+    <ImagePath>Asset\Restorans\13.jpg</ImagePath>
+    <ResType>Бар</ResType>
+    <Rating>5</Rating>
+    <TimeWork>23:00 - 05:00</TimeWork>
+    <Delivery>false</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>ForOne</Name>
+        <ImagePath>Asset\Dishes\dish37.jpg</ImagePath>
+        <Cost>9863</Cost>
+        <Description>Идеальное блюдо для одиночки</Description>
+      </Dish>
+      <Dish>
+        <Name>Hikka</Name>
+        <ImagePath>Asset\Dishes\dish38.jpg</ImagePath>
+        <Cost>1235</Cost>
+        <Description>Скучое блюдо с перчиком</Description>
+      </Dish>
+      <Dish>
+        <Name>NoOne</Name>
+        <ImagePath>Asset\Dishes\dish39.jpg</ImagePath>
+        <Cost>1</Cost>
+        <Description>Бесплатно</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Kukoraza</Name>
+    <ImagePath>Asset\Restorans\14.jpg</ImagePath>
+    <ResType>Ресторан</ResType>
+    <Rating>4</Rating>
+    <TimeWork>11:05 - 12:30</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Bittler</Name>
+        <ImagePath>Asset\Dishes\dish40.jpg</ImagePath>
+        <Cost>902</Cost>
+        <Description>Bittler высшей пробы</Description>
+      </Dish>
+      <Dish>
+        <Name>LucaMuka</Name>
+        <ImagePath>Asset\Dishes\dish41.jpg</ImagePath>
+        <Cost>782</Cost>
+        <Description>Еда олимпа</Description>
+      </Dish>
+      <Dish>
+        <Name>Ditres</Name>
+        <ImagePath>Asset\Dishes\dish42.jpg</ImagePath>
+        <Cost>963</Cost>
+        <Description>Разорвет абсолютно всё</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+  <Restoran>
+    <Name>Kuraga</Name>
+    <ImagePath>Asset\Restorans\15.jpg</ImagePath>
+    <ResType>Кофейня</ResType>
+    <Rating>5</Rating>
+    <TimeWork>22:00 - 01:30</TimeWork>
+    <Delivery>true</Delivery>
+    <Dishes>
+      <Dish>
+        <Name>Koffe</Name>
+        <ImagePath>Asset\Dishes\dish43.jpg</ImagePath>
+        <Cost>234</Cost>
+        <Description>с ошибкой</Description>
+      </Dish>
+      <Dish>
+        <Name>Coffe</Name>
+        <ImagePath>Asset\Dishes\dish44.jpg</ImagePath>
+        <Cost>432</Cost>
+        <Description>Без ошибки</Description>
+      </Dish>
+      <Dish>
+        <Name>Loffe</Name>
+        <ImagePath>Asset\Dishes\dish45.jpg</ImagePath>
+        <Cost>1122</Cost>
+        <Description>Ну тут не понятно</Description>
+      </Dish>
+    </Dishes>
+  </Restoran>
+</ArrayOfRestoran>
